@@ -33,7 +33,7 @@
 3.  安裝完成後，請建立「.env」檔案，依照以下格式設定連到您自己 MongoDB 的連結：
 
     ```
-    MONGODB_URI=mongodb+srv://<您的 MongoDB 帳號>:<您的 MongoDB 密碼>@xxx.xxx.xxx.net/restaurant-list?retryWrites=true&w=majority
+    MONGODB_URI=mongodb+srv://<您的 MongoDB 帳號>:<您的 MongoDB 密碼>@xxx.xxx.xxx.net/restaurant?retryWrites=true&w=majority
     ```
 
 4.  執行以下指令，匯入本專案的種子資料到 MongoDB 資料庫：
